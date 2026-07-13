@@ -41,6 +41,7 @@ const uploadExpediente = async (req, res) => {
     const nuevoExpediente = new Expediente({
       originalName: req.file.originalname,
       fileName: secureFileName,
+      uploadedBy: req.user?.id,
       mimeType: detectedType.mime,
       size: req.file.size,
       storagePath: finalStoragePath 

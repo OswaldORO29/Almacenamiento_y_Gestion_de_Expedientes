@@ -1,9 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const uploadMiddleware = require('../middlewares/upload.middleware');
+const authMiddleware = require('../middlewares/auth.middleware');
 const { uploadExpediente } = require('../controllers/expendientescontrol');
 router.post(
   '/upload', 
+  authMiddleware,
   uploadMiddleware.single('documento'), 
   uploadExpediente
 );
