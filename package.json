@@ -1,0 +1,31 @@
+{
+  "name": "almacenamiento-gestion-expedientes",
+  "version": "1.0.0",
+  "description": "Proyecto de almacenamiento y gestión de expedientes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "file-type": "^22.0.1",
+    "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.1",
+    "multer": "^2.2.0",
+    "uuid": "^14.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OswaldORO29/Almacenamiento_y_Gestion_de_Expedientes.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/OswaldORO29/Almacenamiento_y_Gestion_de_Expedientes/issues"
+  },
+  "homepage": "https://github.com/OswaldORO29/Almacenamiento_y_Gestion_de_Expedientes#readme"
+}

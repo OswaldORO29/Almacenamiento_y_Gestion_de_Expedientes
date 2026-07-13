@@ -14,7 +14,11 @@ const expedienteSchema = new mongoose.Schema({
     required: true,
     unique: true
   },
-  
+  uploadedBy: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    required: true
+  },
   
   mimeType: {
     type: String,
