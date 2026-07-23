@@ -11,4 +11,4 @@ if (!secreto) {
     console.log("Copia este token exacto en Postman:");
     console.log(token);
 }
-//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJvZmljaWFsIiwiaWF0IjoxNzg0Mjk5MDYzfQ.qI4FFh-1i7z6oNEeb9BPLi_Y33QtUG6pwInO2BK5Jwo
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJvZmljaWFsIiwiaWF0IjoxNzg0MzEyMjIwfQ.3RqYE9Ql8eXZTDgDOBmV_78ZGZsANxr1tT-49mIWvUk
